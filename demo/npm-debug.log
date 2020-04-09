@@ -1,0 +1,817 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose readDependencies loading dependencies from D:\ProtractorDemo\package.json
+5 warn package.json UITests@0.0.1 No repository field.
+6 warn package.json UITests@0.0.1 No README data
+7 warn package.json UITests@0.0.1 No license field.
+8 verbose install where, deps [ 'D:\\ProtractorDemo',
+8 verbose install   [ 'jasmine-reporters',
+8 verbose install     'jasmine-spec-reporter',
+8 verbose install     'jasmine2-protractor-utils',
+8 verbose install     'protractor',
+8 verbose install     'protractor-jasmine2-html-reporter',
+8 verbose install     'request',
+8 verbose install     'selenium-server-standalone-jar',
+8 verbose install     'sync-request',
+8 verbose install     'xlsx' ] ]
+9 verbose install where, peers [ 'D:\\ProtractorDemo', [] ]
+10 verbose installManyTop reading for lifecycle D:\ProtractorDemo\package.json
+11 info preinstall UITests@0.0.1
+12 verbose readDependencies loading dependencies from D:\ProtractorDemo\package.json
+13 silly cache add args [ 'jasmine2-protractor-utils@^1.2.1', null ]
+14 verbose cache add spec jasmine2-protractor-utils@^1.2.1
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'jasmine2-protractor-utils@^1.2.1',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'jasmine2-protractor-utils',
+15 silly cache add   rawSpec: '^1.2.1',
+15 silly cache add   spec: '>=1.2.1 <2.0.0',
+15 silly cache add   type: 'range' }
+16 silly addNamed jasmine2-protractor-utils@>=1.2.1 <2.0.0
+17 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for jasmine2-protractor-utils
+18 silly addNameRange { name: 'jasmine2-protractor-utils',
+18 silly addNameRange   range: '>=1.2.1 <2.0.0',
+18 silly addNameRange   hasData: false }
+19 silly mapToRegistry name jasmine2-protractor-utils
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/jasmine2-protractor-utils
+23 verbose addNameRange registry:https://registry.npmjs.org/jasmine2-protractor-utils not in flight; fetching
+24 silly cache add args [ 'protractor@2.5.1', null ]
+25 verbose cache add spec protractor@2.5.1
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'protractor@2.5.1',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'protractor',
+26 silly cache add   rawSpec: '2.5.1',
+26 silly cache add   spec: '2.5.1',
+26 silly cache add   type: 'version' }
+27 silly addNamed protractor@2.5.1
+28 verbose addNamed "2.5.1" is a plain semver version for protractor
+29 silly mapToRegistry name protractor
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/protractor
+33 verbose addNameVersion registry:https://registry.npmjs.org/protractor not in flight; fetching
+34 silly cache add args [ 'protractor-jasmine2-html-reporter@0.0.5', null ]
+35 verbose cache add spec protractor-jasmine2-html-reporter@0.0.5
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'protractor-jasmine2-html-reporter@0.0.5',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'protractor-jasmine2-html-reporter',
+36 silly cache add   rawSpec: '0.0.5',
+36 silly cache add   spec: '0.0.5',
+36 silly cache add   type: 'version' }
+37 silly addNamed protractor-jasmine2-html-reporter@0.0.5
+38 verbose addNamed "0.0.5" is a plain semver version for protractor-jasmine2-html-reporter
+39 silly mapToRegistry name protractor-jasmine2-html-reporter
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/protractor-jasmine2-html-reporter
+43 verbose addNameVersion registry:https://registry.npmjs.org/protractor-jasmine2-html-reporter not in flight; fetching
+44 silly cache add args [ 'request@^2.60.0', null ]
+45 verbose cache add spec request@^2.60.0
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'request@^2.60.0',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'request',
+46 silly cache add   rawSpec: '^2.60.0',
+46 silly cache add   spec: '>=2.60.0 <3.0.0',
+46 silly cache add   type: 'range' }
+47 silly addNamed request@>=2.60.0 <3.0.0
+48 verbose addNamed ">=2.60.0 <3.0.0" is a valid semver range for request
+49 silly addNameRange { name: 'request', range: '>=2.60.0 <3.0.0', hasData: false }
+50 silly mapToRegistry name request
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/request
+54 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+55 silly cache add args [ 'selenium-server-standalone-jar@2.47.1', null ]
+56 verbose cache add spec selenium-server-standalone-jar@2.47.1
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'selenium-server-standalone-jar@2.47.1',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'selenium-server-standalone-jar',
+57 silly cache add   rawSpec: '2.47.1',
+57 silly cache add   spec: '2.47.1',
+57 silly cache add   type: 'version' }
+58 silly addNamed selenium-server-standalone-jar@2.47.1
+59 verbose addNamed "2.47.1" is a plain semver version for selenium-server-standalone-jar
+60 silly mapToRegistry name selenium-server-standalone-jar
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/selenium-server-standalone-jar
+64 verbose addNameVersion registry:https://registry.npmjs.org/selenium-server-standalone-jar not in flight; fetching
+65 silly cache add args [ 'sync-request@^2.0.1', null ]
+66 verbose cache add spec sync-request@^2.0.1
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'sync-request@^2.0.1',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'sync-request',
+67 silly cache add   rawSpec: '^2.0.1',
+67 silly cache add   spec: '>=2.0.1 <3.0.0',
+67 silly cache add   type: 'range' }
+68 silly addNamed sync-request@>=2.0.1 <3.0.0
+69 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for sync-request
+70 silly addNameRange { name: 'sync-request', range: '>=2.0.1 <3.0.0', hasData: false }
+71 silly mapToRegistry name sync-request
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/sync-request
+75 verbose addNameRange registry:https://registry.npmjs.org/sync-request not in flight; fetching
+76 silly cache add args [ 'xlsx@^0.8.0', null ]
+77 verbose cache add spec xlsx@^0.8.0
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'xlsx@^0.8.0',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'xlsx',
+78 silly cache add   rawSpec: '^0.8.0',
+78 silly cache add   spec: '>=0.8.0 <0.9.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed xlsx@>=0.8.0 <0.9.0
+80 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for xlsx
+81 silly addNameRange { name: 'xlsx', range: '>=0.8.0 <0.9.0', hasData: false }
+82 silly mapToRegistry name xlsx
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/xlsx
+86 verbose addNameRange registry:https://registry.npmjs.org/xlsx not in flight; fetching
+87 silly cache add args [ 'jasmine-reporters@^2.0.6', null ]
+88 verbose cache add spec jasmine-reporters@^2.0.6
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'jasmine-reporters@^2.0.6',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'jasmine-reporters',
+89 silly cache add   rawSpec: '^2.0.6',
+89 silly cache add   spec: '>=2.0.6 <3.0.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed jasmine-reporters@>=2.0.6 <3.0.0
+91 verbose addNamed ">=2.0.6 <3.0.0" is a valid semver range for jasmine-reporters
+92 silly addNameRange { name: 'jasmine-reporters',
+92 silly addNameRange   range: '>=2.0.6 <3.0.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name jasmine-reporters
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/jasmine-reporters
+97 verbose addNameRange registry:https://registry.npmjs.org/jasmine-reporters not in flight; fetching
+98 silly cache add args [ 'jasmine-spec-reporter@^2.2.3', null ]
+99 verbose cache add spec jasmine-spec-reporter@^2.2.3
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'jasmine-spec-reporter@^2.2.3',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'jasmine-spec-reporter',
+100 silly cache add   rawSpec: '^2.2.3',
+100 silly cache add   spec: '>=2.2.3 <3.0.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed jasmine-spec-reporter@>=2.2.3 <3.0.0
+102 verbose addNamed ">=2.2.3 <3.0.0" is a valid semver range for jasmine-spec-reporter
+103 silly addNameRange { name: 'jasmine-spec-reporter',
+103 silly addNameRange   range: '>=2.2.3 <3.0.0',
+103 silly addNameRange   hasData: false }
+104 silly mapToRegistry name jasmine-spec-reporter
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/jasmine-spec-reporter
+108 verbose addNameRange registry:https://registry.npmjs.org/jasmine-spec-reporter not in flight; fetching
+109 verbose request uri https://registry.npmjs.org/protractor-jasmine2-html-reporter
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 9:05:02 AM
+112 verbose request id 2a7e99bfffed9deb
+113 verbose etag "880Y9SJD09M7QZVC9K4W8TYSX"
+114 http request GET https://registry.npmjs.org/protractor-jasmine2-html-reporter
+115 verbose request uri https://registry.npmjs.org/jasmine2-protractor-utils
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 9:05:02 AM
+118 verbose etag "5HO81UMYN0JDLJX3QBLB8BC9C"
+119 http request GET https://registry.npmjs.org/jasmine2-protractor-utils
+120 verbose request uri https://registry.npmjs.org/protractor
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 9:05:02 AM
+123 verbose etag "A7MSH2DMUXE28CL7ELTAGMM2C"
+124 http request GET https://registry.npmjs.org/protractor
+125 verbose request uri https://registry.npmjs.org/xlsx
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 9:05:02 AM
+128 verbose etag "5YOQYE9M3OF6OKZ5YNQANO465"
+129 http request GET https://registry.npmjs.org/xlsx
+130 verbose request uri https://registry.npmjs.org/jasmine-reporters
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 9:05:02 AM
+133 verbose etag "BS744IXAO6O83PYGLZKRSCGLY"
+134 http request GET https://registry.npmjs.org/jasmine-reporters
+135 verbose request uri https://registry.npmjs.org/sync-request
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 9:05:02 AM
+138 verbose etag "B1CG13ZZ8ZDFOF37YEMD6NEKS"
+139 http request GET https://registry.npmjs.org/sync-request
+140 verbose request uri https://registry.npmjs.org/request
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 9:05:02 AM
+143 verbose etag "8AHY0T3SYB5VUVUD3IAABHJN4"
+144 http request GET https://registry.npmjs.org/request
+145 verbose request uri https://registry.npmjs.org/jasmine-spec-reporter
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 9:05:02 AM
+148 verbose etag "ADIN2P20DQDS5FMFTG5HMZDSY"
+149 http request GET https://registry.npmjs.org/jasmine-spec-reporter
+150 verbose request uri https://registry.npmjs.org/selenium-server-standalone-jar
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 9:05:02 AM
+153 verbose etag "4EHPE28BQYZYVRZ1SAT2M86PA"
+154 http request GET https://registry.npmjs.org/selenium-server-standalone-jar
+155 http 304 https://registry.npmjs.org/sync-request
+156 verbose headers { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   'cache-control': 'max-age=300',
+156 verbose headers   etag: '"B1CG13ZZ8ZDFOF37YEMD6NEKS"',
+156 verbose headers   age: '21',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+156 verbose headers   'x-cache': 'HIT',
+156 verbose headers   'x-cache-hits': '1',
+156 verbose headers   'x-timer': 'S1458531304.030711,VS0,VE0',
+156 verbose headers   vary: 'Accept' }
+157 silly get cb [ 304,
+157 silly get   { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     'cache-control': 'max-age=300',
+157 silly get     etag: '"B1CG13ZZ8ZDFOF37YEMD6NEKS"',
+157 silly get     age: '21',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-sin6924-SIN',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '1',
+157 silly get     'x-timer': 'S1458531304.030711,VS0,VE0',
+157 silly get     vary: 'Accept' } ]
+158 verbose etag https://registry.npmjs.org/sync-request from cache
+159 verbose get saving sync-request to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\sync-request\.cache.json
+160 http 304 https://registry.npmjs.org/jasmine-reporters
+161 verbose headers { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+161 verbose headers   via: '1.1 varnish',
+161 verbose headers   'cache-control': 'max-age=300',
+161 verbose headers   etag: '"BS744IXAO6O83PYGLZKRSCGLY"',
+161 verbose headers   age: '235',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+161 verbose headers   'x-cache': 'HIT',
+161 verbose headers   'x-cache-hits': '2',
+161 verbose headers   'x-timer': 'S1458531304.035581,VS0,VE0',
+161 verbose headers   vary: 'Accept' }
+162 silly get cb [ 304,
+162 silly get   { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     'cache-control': 'max-age=300',
+162 silly get     etag: '"BS744IXAO6O83PYGLZKRSCGLY"',
+162 silly get     age: '235',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-sin6923-SIN',
+162 silly get     'x-cache': 'HIT',
+162 silly get     'x-cache-hits': '2',
+162 silly get     'x-timer': 'S1458531304.035581,VS0,VE0',
+162 silly get     vary: 'Accept' } ]
+163 verbose etag https://registry.npmjs.org/jasmine-reporters from cache
+164 verbose get saving jasmine-reporters to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\jasmine-reporters\.cache.json
+165 silly addNameRange number 2 { name: 'jasmine-reporters',
+165 silly addNameRange   range: '>=2.0.6 <3.0.0',
+165 silly addNameRange   hasData: true }
+166 silly addNameRange versions [ 'jasmine-reporters',
+166 silly addNameRange   [ '0.1.0',
+166 silly addNameRange     '0.2.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.3.2',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.4.1',
+166 silly addNameRange     '1.0.0',
+166 silly addNameRange     '2.0.0',
+166 silly addNameRange     '2.0.1',
+166 silly addNameRange     '2.0.2',
+166 silly addNameRange     '2.0.3',
+166 silly addNameRange     '1.0.1',
+166 silly addNameRange     '2.0.4',
+166 silly addNameRange     '2.0.5',
+166 silly addNameRange     '1.0.2',
+166 silly addNameRange     '2.0.6',
+166 silly addNameRange     '2.0.7',
+166 silly addNameRange     '2.0.8',
+166 silly addNameRange     '2.1.0',
+166 silly addNameRange     '2.1.1' ] ]
+167 silly addNamed jasmine-reporters@2.1.1
+168 verbose addNamed "2.1.1" is a plain semver version for jasmine-reporters
+169 silly addNameRange number 2 { name: 'sync-request', range: '>=2.0.1 <3.0.0', hasData: true }
+170 silly addNameRange versions [ 'sync-request',
+170 silly addNameRange   [ '1.0.0',
+170 silly addNameRange     '1.0.1',
+170 silly addNameRange     '1.0.2',
+170 silly addNameRange     '2.0.0',
+170 silly addNameRange     '2.0.1',
+170 silly addNameRange     '2.1.0',
+170 silly addNameRange     '2.2.0',
+170 silly addNameRange     '3.0.0' ] ]
+171 silly addNamed sync-request@2.2.0
+172 verbose addNamed "2.2.0" is a plain semver version for sync-request
+173 silly cache afterAdd jasmine-reporters@2.1.1
+174 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine-reporters\2.1.1\package\package.json not in flight; writing
+175 silly cache afterAdd sync-request@2.2.0
+176 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\sync-request\2.2.0\package\package.json not in flight; writing
+177 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine-reporters\2.1.1\package\package.json written
+178 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\sync-request\2.2.0\package\package.json written
+179 http 304 https://registry.npmjs.org/protractor-jasmine2-html-reporter
+180 verbose headers { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+180 verbose headers   via: '1.1 varnish',
+180 verbose headers   'cache-control': 'max-age=300',
+180 verbose headers   etag: '"880Y9SJD09M7QZVC9K4W8TYSX"',
+180 verbose headers   age: '0',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+180 verbose headers   'x-cache': 'MISS',
+180 verbose headers   'x-cache-hits': '0',
+180 verbose headers   'x-timer': 'S1458531304.032723,VS0,VE202',
+180 verbose headers   vary: 'Accept' }
+181 silly get cb [ 304,
+181 silly get   { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+181 silly get     via: '1.1 varnish',
+181 silly get     'cache-control': 'max-age=300',
+181 silly get     etag: '"880Y9SJD09M7QZVC9K4W8TYSX"',
+181 silly get     age: '0',
+181 silly get     connection: 'keep-alive',
+181 silly get     'x-served-by': 'cache-sin6924-SIN',
+181 silly get     'x-cache': 'MISS',
+181 silly get     'x-cache-hits': '0',
+181 silly get     'x-timer': 'S1458531304.032723,VS0,VE202',
+181 silly get     vary: 'Accept' } ]
+182 verbose etag https://registry.npmjs.org/protractor-jasmine2-html-reporter from cache
+183 verbose get saving protractor-jasmine2-html-reporter to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\protractor-jasmine2-html-reporter\.cache.json
+184 silly cache afterAdd protractor-jasmine2-html-reporter@0.0.5
+185 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\protractor-jasmine2-html-reporter\0.0.5\package\package.json not in flight; writing
+186 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\protractor-jasmine2-html-reporter\0.0.5\package\package.json written
+187 http 200 https://registry.npmjs.org/selenium-server-standalone-jar
+188 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+188 verbose headers   etag: '"6R0FSWMQRJ1LWUYKBUDKDPUFR"',
+188 verbose headers   'content-type': 'application/json',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   'content-length': '13985',
+188 verbose headers   'accept-ranges': 'bytes',
+188 verbose headers   date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   age: '0',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+188 verbose headers   'x-cache': 'MISS',
+188 verbose headers   'x-cache-hits': '0',
+188 verbose headers   'x-timer': 'S1458531304.045895,VS0,VE216',
+188 verbose headers   vary: 'Accept' }
+189 silly get cb [ 200,
+189 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+189 silly get     etag: '"6R0FSWMQRJ1LWUYKBUDKDPUFR"',
+189 silly get     'content-type': 'application/json',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     'content-length': '13985',
+189 silly get     'accept-ranges': 'bytes',
+189 silly get     date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     age: '0',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-sin6926-SIN',
+189 silly get     'x-cache': 'MISS',
+189 silly get     'x-cache-hits': '0',
+189 silly get     'x-timer': 'S1458531304.045895,VS0,VE216',
+189 silly get     vary: 'Accept' } ]
+190 verbose get saving selenium-server-standalone-jar to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\selenium-server-standalone-jar\.cache.json
+191 silly mapToRegistry name selenium-server-standalone-jar
+192 silly mapToRegistry using default registry
+193 silly mapToRegistry registry https://registry.npmjs.org/
+194 silly mapToRegistry uri https://registry.npmjs.org/selenium-server-standalone-jar
+195 verbose addRemoteTarball https://registry.npmjs.org/selenium-server-standalone-jar/-/selenium-server-standalone-jar-2.47.1.tgz not in flight; adding
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/selenium-server-standalone-jar/-/selenium-server-standalone-jar-2.47.1.tgz',
+196 verbose addRemoteTarball   '3d7046083cbaefb8ae3d1fb09735a36e53e435d5' ]
+197 info retry fetch attempt 1 at 9:05:03 AM
+198 info attempt registry request try #1 at 9:05:03 AM
+199 http fetch GET https://registry.npmjs.org/selenium-server-standalone-jar/-/selenium-server-standalone-jar-2.47.1.tgz
+200 http 304 https://registry.npmjs.org/jasmine2-protractor-utils
+201 verbose headers { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: '"5HO81UMYN0JDLJX3QBLB8BC9C"',
+201 verbose headers   age: '0',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+201 verbose headers   'x-cache': 'MISS',
+201 verbose headers   'x-cache-hits': '0',
+201 verbose headers   'x-timer': 'S1458531304.025709,VS0,VE507',
+201 verbose headers   vary: 'Accept' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: '"5HO81UMYN0JDLJX3QBLB8BC9C"',
+202 silly get     age: '0',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-sin6920-SIN',
+202 silly get     'x-cache': 'MISS',
+202 silly get     'x-cache-hits': '0',
+202 silly get     'x-timer': 'S1458531304.025709,VS0,VE507',
+202 silly get     vary: 'Accept' } ]
+203 verbose etag https://registry.npmjs.org/jasmine2-protractor-utils from cache
+204 verbose get saving jasmine2-protractor-utils to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\jasmine2-protractor-utils\.cache.json
+205 silly addNameRange number 2 { name: 'jasmine2-protractor-utils',
+205 silly addNameRange   range: '>=1.2.1 <2.0.0',
+205 silly addNameRange   hasData: true }
+206 silly addNameRange versions [ 'jasmine2-protractor-utils',
+206 silly addNameRange   [ '1.0.0',
+206 silly addNameRange     '1.0.1',
+206 silly addNameRange     '1.0.2',
+206 silly addNameRange     '1.0.3',
+206 silly addNameRange     '1.0.4',
+206 silly addNameRange     '1.0.5',
+206 silly addNameRange     '1.0.6',
+206 silly addNameRange     '1.1.0',
+206 silly addNameRange     '1.1.1',
+206 silly addNameRange     '1.1.2',
+206 silly addNameRange     '1.1.3',
+206 silly addNameRange     '1.2.1' ] ]
+207 silly addNamed jasmine2-protractor-utils@1.2.1
+208 verbose addNamed "1.2.1" is a plain semver version for jasmine2-protractor-utils
+209 silly cache afterAdd jasmine2-protractor-utils@1.2.1
+210 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine2-protractor-utils\1.2.1\package\package.json not in flight; writing
+211 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine2-protractor-utils\1.2.1\package\package.json written
+212 http 200 https://registry.npmjs.org/jasmine-spec-reporter
+213 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+213 verbose headers   etag: '"83LBPVAMFXG9A8H90KK324564"',
+213 verbose headers   'content-type': 'application/json',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   'content-length': '39679',
+213 verbose headers   'accept-ranges': 'bytes',
+213 verbose headers   date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   age: '0',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+213 verbose headers   'x-cache': 'MISS',
+213 verbose headers   'x-cache-hits': '0',
+213 verbose headers   'x-timer': 'S1458531304.035740,VS0,VE205',
+213 verbose headers   vary: 'Accept' }
+214 silly get cb [ 200,
+214 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+214 silly get     etag: '"83LBPVAMFXG9A8H90KK324564"',
+214 silly get     'content-type': 'application/json',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     'content-length': '39679',
+214 silly get     'accept-ranges': 'bytes',
+214 silly get     date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     age: '0',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-sin6921-SIN',
+214 silly get     'x-cache': 'MISS',
+214 silly get     'x-cache-hits': '0',
+214 silly get     'x-timer': 'S1458531304.035740,VS0,VE205',
+214 silly get     vary: 'Accept' } ]
+215 verbose get saving jasmine-spec-reporter to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\jasmine-spec-reporter\.cache.json
+216 silly addNameRange number 2 { name: 'jasmine-spec-reporter',
+216 silly addNameRange   range: '>=2.2.3 <3.0.0',
+216 silly addNameRange   hasData: true }
+217 silly addNameRange versions [ 'jasmine-spec-reporter',
+217 silly addNameRange   [ '0.0.1',
+217 silly addNameRange     '0.0.2',
+217 silly addNameRange     '0.0.3',
+217 silly addNameRange     '0.0.4',
+217 silly addNameRange     '0.0.5',
+217 silly addNameRange     '0.0.6',
+217 silly addNameRange     '0.1.0',
+217 silly addNameRange     '0.2.0',
+217 silly addNameRange     '0.3.0',
+217 silly addNameRange     '0.3.1',
+217 silly addNameRange     '0.3.2',
+217 silly addNameRange     '0.3.3',
+217 silly addNameRange     '0.4.0',
+217 silly addNameRange     '0.5.0',
+217 silly addNameRange     '0.6.0',
+217 silly addNameRange     '1.0.0',
+217 silly addNameRange     '1.1.0',
+217 silly addNameRange     '1.1.1',
+217 silly addNameRange     '1.1.2',
+217 silly addNameRange     '2.0.0',
+217 silly addNameRange     '2.1.0',
+217 silly addNameRange     '1.2.0',
+217 silly addNameRange     '2.2.0',
+217 silly addNameRange     '2.2.1',
+217 silly addNameRange     '2.2.2',
+217 silly addNameRange     '2.2.3',
+217 silly addNameRange     '2.3.0',
+217 silly addNameRange     '2.4.0' ] ]
+218 silly addNamed jasmine-spec-reporter@2.4.0
+219 verbose addNamed "2.4.0" is a plain semver version for jasmine-spec-reporter
+220 silly cache afterAdd jasmine-spec-reporter@2.4.0
+221 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine-spec-reporter\2.4.0\package\package.json not in flight; writing
+222 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\jasmine-spec-reporter\2.4.0\package\package.json written
+223 http 200 https://registry.npmjs.org/protractor
+224 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+224 verbose headers   etag: '"AWMQU3M4E5051W7Z8ZJNWPQQK"',
+224 verbose headers   'content-type': 'application/json',
+224 verbose headers   'cache-control': 'max-age=300',
+224 verbose headers   'content-length': '107270',
+224 verbose headers   'accept-ranges': 'bytes',
+224 verbose headers   date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+224 verbose headers   via: '1.1 varnish',
+224 verbose headers   age: '235',
+224 verbose headers   connection: 'keep-alive',
+224 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+224 verbose headers   'x-cache': 'HIT',
+224 verbose headers   'x-cache-hits': '2',
+224 verbose headers   'x-timer': 'S1458531304.044191,VS0,VE0',
+224 verbose headers   vary: 'Accept' }
+225 silly get cb [ 200,
+225 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+225 silly get     etag: '"AWMQU3M4E5051W7Z8ZJNWPQQK"',
+225 silly get     'content-type': 'application/json',
+225 silly get     'cache-control': 'max-age=300',
+225 silly get     'content-length': '107270',
+225 silly get     'accept-ranges': 'bytes',
+225 silly get     date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+225 silly get     via: '1.1 varnish',
+225 silly get     age: '235',
+225 silly get     connection: 'keep-alive',
+225 silly get     'x-served-by': 'cache-sin6927-SIN',
+225 silly get     'x-cache': 'HIT',
+225 silly get     'x-cache-hits': '2',
+225 silly get     'x-timer': 'S1458531304.044191,VS0,VE0',
+225 silly get     vary: 'Accept' } ]
+226 verbose get saving protractor to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\protractor\.cache.json
+227 silly mapToRegistry name protractor
+228 silly mapToRegistry using default registry
+229 silly mapToRegistry registry https://registry.npmjs.org/
+230 silly mapToRegistry uri https://registry.npmjs.org/protractor
+231 verbose addRemoteTarball https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz not in flight; adding
+232 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz',
+232 verbose addRemoteTarball   '03d6c93cd7c268f4250177d55a2fec8a198372cd' ]
+233 info retry fetch attempt 1 at 9:05:03 AM
+234 info attempt registry request try #1 at 9:05:03 AM
+235 http fetch GET https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz
+236 http 200 https://registry.npmjs.org/request
+237 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+237 verbose headers   etag: '"BI3FB97VHWCTI7A48TPLF70QV"',
+237 verbose headers   'content-type': 'application/json',
+237 verbose headers   'cache-control': 'max-age=300',
+237 verbose headers   'content-length': '186759',
+237 verbose headers   'accept-ranges': 'bytes',
+237 verbose headers   date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+237 verbose headers   via: '1.1 varnish',
+237 verbose headers   age: '196',
+237 verbose headers   connection: 'keep-alive',
+237 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+237 verbose headers   'x-cache': 'HIT',
+237 verbose headers   'x-cache-hits': '10',
+237 verbose headers   'x-timer': 'S1458531304.043715,VS0,VE0',
+237 verbose headers   vary: 'Accept' }
+238 silly get cb [ 200,
+238 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+238 silly get     etag: '"BI3FB97VHWCTI7A48TPLF70QV"',
+238 silly get     'content-type': 'application/json',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     'content-length': '186759',
+238 silly get     'accept-ranges': 'bytes',
+238 silly get     date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     age: '196',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-sin6920-SIN',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '10',
+238 silly get     'x-timer': 'S1458531304.043715,VS0,VE0',
+238 silly get     vary: 'Accept' } ]
+239 verbose get saving request to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\request\.cache.json
+240 silly addNameRange number 2 { name: 'request', range: '>=2.60.0 <3.0.0', hasData: true }
+241 silly addNameRange versions [ 'request',
+241 silly addNameRange   [ '0.10.0',
+241 silly addNameRange     '0.8.3',
+241 silly addNameRange     '0.9.0',
+241 silly addNameRange     '0.9.1',
+241 silly addNameRange     '0.9.5',
+241 silly addNameRange     '1.0.0',
+241 silly addNameRange     '1.1.0',
+241 silly addNameRange     '1.1.1',
+241 silly addNameRange     '1.2.0',
+241 silly addNameRange     '1.9.0',
+241 silly addNameRange     '1.9.1',
+241 silly addNameRange     '1.9.2',
+241 silly addNameRange     '1.9.3',
+241 silly addNameRange     '1.9.5',
+241 silly addNameRange     '1.9.7',
+241 silly addNameRange     '1.9.8',
+241 silly addNameRange     '1.9.9',
+241 silly addNameRange     '2.0.0',
+241 silly addNameRange     '2.0.1',
+241 silly addNameRange     '2.0.2',
+241 silly addNameRange     '2.0.3',
+241 silly addNameRange     '2.0.4',
+241 silly addNameRange     '2.0.5',
+241 silly addNameRange     '2.1.0',
+241 silly addNameRange     '2.1.1',
+241 silly addNameRange     '2.2.0',
+241 silly addNameRange     '2.2.5',
+241 silly addNameRange     '2.2.6',
+241 silly addNameRange     '2.2.9',
+241 silly addNameRange     '2.9.0',
+241 silly addNameRange     '2.9.1',
+241 silly addNameRange     '2.9.2',
+241 silly addNameRange     '2.9.3',
+241 silly addNameRange     '2.9.100',
+241 silly addNameRange     '2.9.150',
+241 silly addNameRange     '2.9.151',
+241 silly addNameRange     '2.9.152',
+241 silly addNameRange     '2.9.153',
+241 silly addNameRange     '2.9.200',
+241 silly addNameRange     '2.9.201',
+241 silly addNameRange     '2.9.202',
+241 silly addNameRange     '2.9.203',
+241 silly addNameRange     '2.10.0',
+241 silly addNameRange     '2.11.0',
+241 silly addNameRange     '2.11.1',
+241 silly addNameRange     '2.11.2',
+241 silly addNameRange     '2.11.3',
+241 silly addNameRange     '2.11.4',
+241 silly addNameRange     '2.12.0',
+241 silly addNameRange     '2.14.0',
+241 silly addNameRange     '2.16.0',
+241 silly addNameRange     '2.16.2',
+241 silly addNameRange     '2.16.4',
+241 silly addNameRange     '2.16.6',
+241 silly addNameRange     '2.18.0',
+241 silly addNameRange     '2.19.0',
+241 silly addNameRange     '2.20.0',
+241 silly addNameRange     '2.21.0',
+241 silly addNameRange     '2.22.0',
+241 silly addNameRange     '2.23.0',
+241 silly addNameRange     '2.24.0',
+241 silly addNameRange     '2.25.0',
+241 silly addNameRange     '2.26.0',
+241 silly addNameRange     '2.27.0',
+241 silly addNameRange     '2.28.0',
+241 silly addNameRange     '2.29.0',
+241 silly addNameRange     '2.30.0',
+241 silly addNameRange     '2.31.0',
+241 silly addNameRange     '2.32.0',
+241 silly addNameRange     '2.33.0',
+241 silly addNameRange     '2.34.0',
+241 silly addNameRange     '2.35.0',
+241 silly addNameRange     '2.36.0',
+241 silly addNameRange     '2.37.0',
+241 silly addNameRange     '2.38.0',
+241 silly addNameRange     '2.39.0',
+241 silly addNameRange     '2.40.0',
+241 silly addNameRange     '2.41.0',
+241 silly addNameRange     '2.42.0',
+241 silly addNameRange     '2.43.0',
+241 silly addNameRange     '2.44.0',
+241 silly addNameRange     '2.45.0',
+241 silly addNameRange     '2.46.0',
+241 silly addNameRange     '2.47.0',
+241 silly addNameRange     '2.48.0',
+241 silly addNameRange     '2.49.0',
+241 silly addNameRange     '2.50.0',
+241 silly addNameRange     '2.51.0',
+241 silly addNameRange     '2.52.0',
+241 silly addNameRange     '2.53.0',
+241 silly addNameRange     '2.54.0',
+241 silly addNameRange     '2.55.0',
+241 silly addNameRange     '2.56.0',
+241 silly addNameRange     '2.57.0',
+241 silly addNameRange     '2.58.0',
+241 silly addNameRange     '2.59.0',
+241 silly addNameRange     '2.60.0',
+241 silly addNameRange     '2.61.0',
+241 silly addNameRange     '2.62.0',
+241 silly addNameRange     '2.63.0',
+241 silly addNameRange     '2.64.0',
+241 silly addNameRange     '2.65.0',
+241 silly addNameRange     '2.66.0',
+241 silly addNameRange     '2.67.0',
+241 silly addNameRange     '2.68.0',
+241 silly addNameRange     '2.69.0' ] ]
+242 silly addNamed request@2.69.0
+243 verbose addNamed "2.69.0" is a plain semver version for request
+244 silly cache afterAdd request@2.69.0
+245 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\request\2.69.0\package\package.json not in flight; writing
+246 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\request\2.69.0\package\package.json written
+247 http 200 https://registry.npmjs.org/xlsx
+248 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+248 verbose headers   etag: '"6CFK4VKTPX3BPRPKZVP26E9X6"',
+248 verbose headers   'content-type': 'application/json',
+248 verbose headers   'cache-control': 'max-age=300',
+248 verbose headers   'content-length': '81530',
+248 verbose headers   'accept-ranges': 'bytes',
+248 verbose headers   date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+248 verbose headers   via: '1.1 varnish',
+248 verbose headers   age: '0',
+248 verbose headers   connection: 'keep-alive',
+248 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+248 verbose headers   'x-cache': 'HIT',
+248 verbose headers   'x-cache-hits': '1',
+248 verbose headers   'x-timer': 'S1458531304.028164,VS0,VE835',
+248 verbose headers   vary: 'Accept' }
+249 silly get cb [ 200,
+249 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+249 silly get     etag: '"6CFK4VKTPX3BPRPKZVP26E9X6"',
+249 silly get     'content-type': 'application/json',
+249 silly get     'cache-control': 'max-age=300',
+249 silly get     'content-length': '81530',
+249 silly get     'accept-ranges': 'bytes',
+249 silly get     date: 'Mon, 21 Mar 2016 03:35:04 GMT',
+249 silly get     via: '1.1 varnish',
+249 silly get     age: '0',
+249 silly get     connection: 'keep-alive',
+249 silly get     'x-served-by': 'cache-sin6927-SIN',
+249 silly get     'x-cache': 'HIT',
+249 silly get     'x-cache-hits': '1',
+249 silly get     'x-timer': 'S1458531304.028164,VS0,VE835',
+249 silly get     vary: 'Accept' } ]
+250 verbose get saving xlsx to C:\Users\sudhansup\AppData\Roaming\npm-cache\registry.npmjs.org\xlsx\.cache.json
+251 silly addNameRange number 2 { name: 'xlsx', range: '>=0.8.0 <0.9.0', hasData: true }
+252 silly addNameRange versions [ 'xlsx',
+252 silly addNameRange   [ '0.3.3',
+252 silly addNameRange     '0.3.5',
+252 silly addNameRange     '0.3.6',
+252 silly addNameRange     '0.3.7',
+252 silly addNameRange     '0.3.9',
+252 silly addNameRange     '0.3.10',
+252 silly addNameRange     '0.4.3',
+252 silly addNameRange     '0.5.0',
+252 silly addNameRange     '0.5.1',
+252 silly addNameRange     '0.5.2',
+252 silly addNameRange     '0.5.3',
+252 silly addNameRange     '0.5.4',
+252 silly addNameRange     '0.5.5',
+252 silly addNameRange     '0.5.6',
+252 silly addNameRange     '0.5.7',
+252 silly addNameRange     '0.5.8',
+252 silly addNameRange     '0.5.9',
+252 silly addNameRange     '0.5.9-a',
+252 silly addNameRange     '0.5.10',
+252 silly addNameRange     '0.5.10-a',
+252 silly addNameRange     '0.5.10-b.3',
+252 silly addNameRange     '0.5.11',
+252 silly addNameRange     '0.5.12',
+252 silly addNameRange     '0.5.13',
+252 silly addNameRange     '0.5.13-a',
+252 silly addNameRange     '0.5.14',
+252 silly addNameRange     '0.5.15',
+252 silly addNameRange     '0.5.16',
+252 silly addNameRange     '0.5.17',
+252 silly addNameRange     '0.6.0',
+252 silly addNameRange     '0.6.1',
+252 silly addNameRange     '0.6.1-a',
+252 silly addNameRange     '0.6.2',
+252 silly addNameRange     '0.7.0',
+252 silly addNameRange     '0.7.1',
+252 silly addNameRange     '0.7.2-a',
+252 silly addNameRange     '0.7.3',
+252 silly addNameRange     '0.7.4',
+252 silly addNameRange     '0.7.5',
+252 silly addNameRange     '0.7.6-g',
+252 silly addNameRange     '0.7.6-h',
+252 silly addNameRange     '0.7.6-i',
+252 silly addNameRange     '0.7.7',
+252 silly addNameRange     '0.7.8',
+252 silly addNameRange     '0.7.9',
+252 silly addNameRange     '0.7.10',
+252 silly addNameRange     '0.7.11',
+252 silly addNameRange     '0.7.12',
+252 silly addNameRange     '0.8.0' ] ]
+253 silly addNamed xlsx@0.8.0
+254 verbose addNamed "0.8.0" is a plain semver version for xlsx
+255 silly cache afterAdd xlsx@0.8.0
+256 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\xlsx\0.8.0\package\package.json not in flight; writing
+257 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\xlsx\0.8.0\package\package.json written
+258 http fetch 200 https://registry.npmjs.org/protractor/-/protractor-2.5.1.tgz
+259 silly fetchAndShaCheck shasum 03d6c93cd7c268f4250177d55a2fec8a198372cd
+260 verbose addTmpTarball C:\Users\SUDHAN~1\AppData\Local\Temp\npm-1448-77c86a3e\registry.npmjs.org\protractor\-\protractor-2.5.1.tgz not in flight; adding
+261 verbose addTmpTarball already have metadata; skipping unpack for protractor@2.5.1
+262 silly cache afterAdd protractor@2.5.1
+263 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\protractor\2.5.1\package\package.json not in flight; writing
+264 verbose afterAdd C:\Users\sudhansup\AppData\Roaming\npm-cache\protractor\2.5.1\package\package.json written
+265 http fetch 200 https://registry.npmjs.org/selenium-server-standalone-jar/-/selenium-server-standalone-jar-2.47.1.tgz
+266 verbose stack Error: read ECONNRESET
+266 verbose stack     at exports._errnoException (util.js:870:11)
+266 verbose stack     at TLSWrap.onread (net.js:544:26)
+267 verbose cwd D:\ProtractorDemo\demo
+268 error Windows_NT 6.1.7601
+269 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+270 error node v4.2.4
+271 error npm  v2.14.12
+272 error code ECONNRESET
+273 error errno ECONNRESET
+274 error syscall read
+275 error network read ECONNRESET
+275 error network This is most likely not a problem with npm itself
+275 error network and is related to network connectivity.
+275 error network In most cases you are behind a proxy or have bad network settings.
+275 error network
+275 error network If you are behind a proxy, please make sure that the
+275 error network 'proxy' config is set properly.  See: 'npm help config'
+276 verbose exit [ 1, true ]

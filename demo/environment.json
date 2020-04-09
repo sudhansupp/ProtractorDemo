@@ -1,0 +1,24 @@
+{
+  "env":"dev",
+  "qa":{
+    "url":"http://automationpractice.com/index.php",
+    "username":"a",
+    "password":"a"
+
+  },
+  "dev":{
+      "url":"http://automationpractice.com/index.php",
+      "username":"a",
+      "password":"a"
+  },
+  "stage":{
+      "url":"http://automationpractice.com/index.php",
+      "username":"a",
+      "password":"a"
+  },
+  "default":{
+      "url":"http://automationpractice.com/index.php",
+      "username":"a",
+      "password":"a"
+  }
+}
